@@ -9,6 +9,6 @@ Target=equicord-installer-bin
 
 [Action]
 When=PostTransaction
-Exec=/etc/pacman.d/hookbin/equicord.sh
+Exec=/usr/lib/equicord-hook/equicord-autoinstall.sh
 NeedsTargets
 
