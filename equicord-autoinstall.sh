@@ -15,9 +15,9 @@ while IFS= read -r package || [ -n "$package" ]; do
     fi
 
     echo "Installing Equicord for $branch branch..."
-    equicord-installer -install -branch "$branch" || {
+    equilotl -install -branch "$branch" || {
         echo "Falling back to auto branch..."
-        equicord-installer -install -branch auto
+        equilotl -install -branch auto
     }
 done
 
