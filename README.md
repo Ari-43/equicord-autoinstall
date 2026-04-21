@@ -1,2 +1,2 @@
-# archlinux-equicord-hook
-Equicord pacman hook and installation script
+# equicord-autoinstall
+Installation script using equilotl and a Pacman hook to ease reinstalling Equicord when Discord updates. 
